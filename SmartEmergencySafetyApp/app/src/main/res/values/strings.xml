@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Emergency Safety</string>
+    <string name="app_tagline">Your Safety, One Tap Away.</string>
+
+    <!-- Navigation / Dashboard Titles -->
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_emergency_contacts">Emergency Contacts</string>
+    <string name="title_share_location">Share My Location</string>
+    <string name="title_safety_timer">Safety Timer</string>
+    <string name="title_fake_call">Fake Call Simulator</string>
+    <string name="title_emergency_history">Emergency History</string>
+    <string name="title_emergency_info">Emergency Information</string>
+    <string name="title_settings">Settings</string>
+
+    <!-- SOS Button & Prompts -->
+    <string name="btn_sos">SOS</string>
+    <string name="sos_tap_hint">TAP FOR IMMEDIATE EMERGENCY ALERT</string>
+    <string name="sos_confirm_title">Trigger Emergency SOS?</string>
+    <string name="sos_confirm_msg">This will acquire your high-accuracy GPS location, retrieve your emergency contacts, and open your messaging application prefilled with an emergency alert link. Do you want to proceed?</string>
+    <string name="btn_send_sos">Send Emergency SOS</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <!-- Auth -->
+    <string name="title_login">Sign In</string>
+    <string name="title_register">Create Account</string>
+    <string name="subtitle_login">Sign in to access your emergency protection network</string>
+    <string name="subtitle_register">Set up your profile to start protecting yourself and loved ones</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_forgot_password">Forgot Password?</string>
+    <string name="link_register">Don\'t have an account? Register here</string>
+    <string name="link_login">Already have an account? Login here</string>
+
+    <!-- Actions & Common -->
+    <string name="btn_logout">Logout</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_add">Add Contact</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_edit">Edit</string>
+    <string name="status_safety_active">🟢 Protection Active</string>
+    <string name="quick_dial_112">QUICK DIAL NATIONAL EMERGENCY (112)</string>
+
+    <!-- Battery -->
+    <string name="battery_warning">Low Battery Detected! Please connect your charger to keep background emergency alerts active.</string>
+</resources>

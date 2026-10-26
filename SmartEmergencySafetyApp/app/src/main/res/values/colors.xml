@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Emergency Accent Colors -->
+    <color name="primary_red">#D32F2F</color>
+    <color name="primary_red_dark">#B71C1C</color>
+    <color name="primary_red_light">#FF5252</color>
+    <color name="accent_red">#E53935</color>
+    <color name="sos_pulse_color">#FFCDD2</color>
+
+    <!-- Secondary & Supporting Colors -->
+    <color name="color_secondary">#1976D2</color>
+    <color name="color_secondary_light">#E3F2FD</color>
+    <color name="color_success">#2E7D32</color>
+    <color name="color_success_light">#E8F5E9</color>
+    <color name="color_warning">#F57C00</color>
+    <color name="color_warning_light">#FFF3E0</color>
+
+    <!-- Neutral Backgrounds & Cards -->
+    <color name="bg_light_grey">#F4F6F8</color>
+    <color name="bg_card_white">#FFFFFF</color>
+    <color name="border_light">#E0E0E0</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#616161</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

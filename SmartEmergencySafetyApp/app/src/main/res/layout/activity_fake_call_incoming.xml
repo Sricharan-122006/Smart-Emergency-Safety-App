@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:padding="24dp">
+
+    <!-- Top Caller Information -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="#222222"
+            android:contentDescription="Caller Avatar"
+            android:padding="16dp"
+            android:src="@drawable/ic_contacts" />
+
+        <TextView
+            android:id="@+id/tv_sim_caller_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Mom"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_sim_caller_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="+1 800-555-0199"
+            android:textColor="#AAAAAA"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_sim_call_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Incoming Call..."
+            android:textColor="#4CAF50"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!-- Incoming Call Buttons (Accept / Decline) -->
+    <LinearLayout
+        android:id="@+id/layout_incoming_actions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_sim_decline"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginEnd="60dp"
+            android:background="@drawable/bg_sos_circle"
+            android:contentDescription="Decline"
+            android:padding="16dp"
+            android:src="@drawable/ic_call_end" />
+
+        <ImageButton
+            android:id="@+id/btn_sim_accept"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:background="#2E7D32"
+            android:contentDescription="Answer"
+            android:padding="16dp"
+            android:src="@drawable/ic_call_answer" />
+
+    </LinearLayout>
+
+    <!-- Connected Active Call UI (shown when accepted) -->
+    <LinearLayout
+        android:id="@+id/layout_active_call_actions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/btn_sim_hangup"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:background="@drawable/bg_sos_circle"
+            android:contentDescription="End Call"
+            android:padding="16dp"
+            android:src="@drawable/ic_call_end" />
+
+    </LinearLayout>
+
+    <!-- Disclaimer Footer -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:text="Safety Simulation Mode"
+        android:textColor="#666666"
+        android:textSize="12sp" />
+
+</RelativeLayout>
